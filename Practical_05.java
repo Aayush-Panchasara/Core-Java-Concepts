@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Practical_5 {
+public class Practical_05 {
     /**
      * Print the star pattern in terminal
      * @param input 

@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Practical_3 {
+public class Practical_03 {
     public static void main(String[] args) {
         int numberOfMonth;
         Scanner scanner = new Scanner(System.in);

@@ -1,6 +1,6 @@
 // Practical 9: Create a practical to compare two variables of Wrapper class using Wrapper classes.
 
-public class Practical_9 {
+public class Practical_09 {
     /**
      * Display the result of comparison of two number
      * @param result comparison result  

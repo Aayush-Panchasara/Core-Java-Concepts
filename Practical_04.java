@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Practical_4 {
+public class Practical_04 {
     /**
      * Demo of while loop
      * @param n counter value

@@ -34,7 +34,7 @@ class EMICalculator{
     }
 }
 
-public class Practical_8 {
+public class Practical_08 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

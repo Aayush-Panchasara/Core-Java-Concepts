@@ -27,7 +27,7 @@ class Calculator{
     }
 }
 
-public class Practical_7 {
+public class Practical_07 {
     public static void main(String[] args) {
         Calculator calOne = new Calculator(); //Called constructor without parameter
 

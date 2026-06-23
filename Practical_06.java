@@ -1,7 +1,7 @@
 // Practical 6: Write a program to demonstrate the example of a break/Continue statement (E.g. Use the loop for 10 numbers and stop the execution after 7 numbers and skip any number).
 
 
-public class Practical_6 {
+public class Practical_06 {
     /**
      * Demo of break keyword
      * @param input 

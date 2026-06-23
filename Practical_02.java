@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-public class Practical_2 {
+public class Practical_02 {
     public static void main(String[] args) {
         int age;
         Scanner scanner = new Scanner(System.in);
