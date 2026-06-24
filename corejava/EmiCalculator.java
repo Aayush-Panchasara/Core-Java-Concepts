@@ -3,20 +3,23 @@ package corejava;
 
 import java.util.Scanner;
 
-class EMICalculator{
-    
-    double principalAmount,annualRate,loanTenure;
+class EMICalculator {
 
-    public EMICalculator(double principalAmount, double annualRate, double loanTenure){
+    double principalAmount, annualRate, loanTenure;
+
+    public EMICalculator(double principalAmount, double annualRate, double loanTenure) {
         this.principalAmount = principalAmount;
         this.annualRate = annualRate;
         this.loanTenure = loanTenure;
     }
-    /**Calculate the EMI and print the Total amount, EMI and Total interest in the terminal*/
-    public void calculateEMI(){
-        double monthlyIntrestRate = annualRate / ( 12 * 100 );
+
+    /**
+     * Calculate the EMI and print the Total amount, EMI and Total interest in the terminal
+     */
+    public void calculateEMI() {
+        double monthlyIntrestRate = annualRate / (12 * 100);
         double monthlyLoanTenure = loanTenure * 12;
-        double emi = (principalAmount * monthlyIntrestRate * Math.pow(1 + monthlyIntrestRate, monthlyLoanTenure)) / (Math.pow(1 + monthlyIntrestRate, monthlyLoanTenure)-1);
+        double emi = (principalAmount * monthlyIntrestRate * Math.pow(1 + monthlyIntrestRate, monthlyLoanTenure)) / (Math.pow(1 + monthlyIntrestRate, monthlyLoanTenure) - 1);
         double totalAmount = emi * monthlyLoanTenure;
         double totalInterest = totalAmount - principalAmount;
 

@@ -4,11 +4,11 @@ package corejava;
 
 public class BreakAndContinue {
 
-    /**Demo of break keyword @param input */
-    public static void breakDemo(int input){
+    /** Demo of break keyword @param input */
+    public static void breakDemo(int input) {
         System.out.println("Break demo\n");
         for (int i = 0; i <= input; i++) {
-            if(i == 7){
+            if (i == 7) {
                 break; // break the loop when variable i becomes 7.
             }
             System.out.println("Counter" + i);
@@ -16,22 +16,21 @@ public class BreakAndContinue {
         System.out.println();
     }
 
-    /**Demo of continue keyword @param input */
-    public static void continueDemo(int input){
+    /** Demo of continue keyword @param input */
+    public static void continueDemo(int input) {
         System.out.println("continue demo\n");
         for (int i = 0; i <= input; i++) {
-            if(i == 7){
+            if (i == 7) {
                 continue; // skip the rest of the code when i becomes 7.
             }
             System.out.println("Counter" + i);
         }
         System.out.println();
     }
-    
+
     public static void main(String[] args) {
         breakDemo(10);
         continueDemo(10);
     }
-    
-}
 
+}

@@ -5,22 +5,21 @@ public class Wrapper {
 
     /**
      * Display the result of comparison of two number
-     * @param result comparison result  
+     * 
+     * @param result comparison result
      * @param numOne first number
      * @param numTwo second number
      */
-    public static void displayResult(int result, int numOne, int numTwo){
-        if(result > 0){
+    public static void displayResult(int result, int numOne, int numTwo) {
+        if (result > 0) {
             System.out.println(numOne + " is greater than " + numTwo);
-        }
-        else if(result < 0) {
+        } else if (result < 0) {
             System.out.println(numOne + " is less than " + numTwo);
-        }
-        else {
+        } else {
             System.out.println("Both are equal");
         }
     }
-    
+
     public static void main(String[] args) {
         Integer numOne = 100;
         Integer numTwo = 200;
@@ -33,5 +32,5 @@ public class Wrapper {
         int result = numOne.compareTo(numTwo);
         displayResult(result, numOne, numTwo);
     }
-    
+
 }

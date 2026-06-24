@@ -20,5 +20,5 @@ public class StringOperations {
         System.out.println("Length : " + userName.length());
         System.out.println("Is username and surname are same? " + userName.equals(userSurname));
     }
-    
+
 }
