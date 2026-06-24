@@ -14,6 +14,7 @@ class Parent{
         this.inputOne = inputOne; 
         this.inputTwo = inputTwo;
     }
+
     /**Display the numbers in the terminal*/
     public void displayNumbers(){
         System.out.println("Number 1: " + inputOne);
@@ -29,6 +30,7 @@ class Child extends Parent {
         super(inputOne,inputTwo); // Here super is use to call the parent's constructor
         this.inputThree = inputThree;
     }
+    
     /** Display the numbers in the terminal*/
     public void displayNumbers(){
         super.displayNumbers(); // Here super is use to call the parent's method

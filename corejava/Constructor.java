@@ -13,6 +13,7 @@ class Calculator{
         this.firstParameter = firstParameter;
         this.secondParameter = secondParameter;
     }
+    
     /**Calculate the sum of two number @return Sum of two number */
     public int CalculateSum(){
         return firstParameter + secondParameter;

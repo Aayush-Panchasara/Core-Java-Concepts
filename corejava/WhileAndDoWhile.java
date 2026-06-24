@@ -14,6 +14,7 @@ public class WhileAndDoWhile {
             counter++;
         }
     }
+
     /** Demo of Do-while loop @param n counter value*/
     public static void doWhileLoopDemo(int n){
         int counter = 1;
@@ -23,6 +24,7 @@ public class WhileAndDoWhile {
             counter++;
         } while (counter <= n);
     }
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number: ");

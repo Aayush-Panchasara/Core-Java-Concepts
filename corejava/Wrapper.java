@@ -20,6 +20,7 @@ public class Wrapper {
             System.out.println("Both are equal");
         }
     }
+    
     public static void main(String[] args) {
         Integer numOne = 100;
         Integer numTwo = 200;

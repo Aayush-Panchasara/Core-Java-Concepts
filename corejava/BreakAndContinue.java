@@ -15,6 +15,7 @@ public class BreakAndContinue {
         }
         System.out.println();
     }
+
     /**Demo of continue keyword @param input */
     public static void continueDemo(int input){
         System.out.println("continue demo\n");
@@ -26,6 +27,7 @@ public class BreakAndContinue {
         }
         System.out.println();
     }
+    
     public static void main(String[] args) {
         breakDemo(10);
         continueDemo(10);
