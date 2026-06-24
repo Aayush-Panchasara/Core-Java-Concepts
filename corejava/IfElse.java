@@ -1,5 +1,4 @@
 package corejava;
-
 /* Write a program to demonstrate the use of if / else statements. (E.g Define an 'age' variable and check your age).*/
 
 import java.util.Scanner;
@@ -11,7 +10,6 @@ public class IfElse {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your age: ");
         age = scanner.nextInt();
-
         if(age > 18) {
             System.out.println("You can Vote!");
         }

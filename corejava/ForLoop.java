@@ -5,9 +5,7 @@ import java.util.Scanner;
 
 public class ForLoop {
     
-    /**
-     * Print the star pattern in terminal @param input 
-     */
+    /**Print the star pattern in terminal @param input */
     public static void printPattern(int input){
         for (int i = 0; i < input; i++) {
             for (int j = 0; j <= i; j++) {

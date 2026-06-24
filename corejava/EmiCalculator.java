@@ -3,9 +3,6 @@ package corejava;
 
 import java.util.Scanner;
 
-/**
- * Class for calculating the EMI
- */
 class EMICalculator{
     
     double principalAmount,annualRate,loanTenure;
@@ -15,9 +12,7 @@ class EMICalculator{
         this.annualRate = annualRate;
         this.loanTenure = loanTenure;
     }
-    /**
-     * Calculate the EMI and print the Total amount, EMI and Total interest in the terminal
-     */
+    /**Calculate the EMI and print the Total amount, EMI and Total interest in the terminal*/
     public void calculateEMI(){
         double monthlyIntrestRate = annualRate / ( 12 * 100 );
         double monthlyLoanTenure = loanTenure * 12;
@@ -27,7 +22,7 @@ class EMICalculator{
 
         System.out.println("EMI Result\n");
         System.out.println("Total Amount: " + totalAmount);
-        System.out.println("EMI: "+emi);
+        System.out.println("EMI: " + emi);
         System.out.println("Total Interest: " + totalInterest);
     }
 }

@@ -1,12 +1,10 @@
 package corejava;
-/* Practical 6: Write a program to demonstrate the example of a break/Continue statement (E.g. Use the loop for 10 numbers and stop the execution after 7 numbers and skip any number).
+/* Write a program to demonstrate the example of a break/Continue statement (E.g. Use the loop for 10 numbers and stop the execution after 7 numbers and skip any number).
 */
 
 public class BreakAndContinue {
 
-    /**
-     * Demo of break keyword @param input 
-     */
+    /**Demo of break keyword @param input */
     public static void breakDemo(int input){
         System.out.println("Break demo\n");
         for (int i = 0; i <= input; i++) {
@@ -17,9 +15,7 @@ public class BreakAndContinue {
         }
         System.out.println();
     }
-    /**
-     * Demo of continue keyword @param input
-     */
+    /**Demo of continue keyword @param input */
     public static void continueDemo(int input){
         System.out.println("continue demo\n");
         for (int i = 0; i <= input; i++) {
@@ -34,5 +30,6 @@ public class BreakAndContinue {
         breakDemo(10);
         continueDemo(10);
     }
+    
 }
 

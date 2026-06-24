@@ -5,9 +5,7 @@ import java.util.Scanner;
 
 public class WhileAndDoWhile {
 
-    /**
-     * Demo of while loop @param n counter value
-     */
+    /** Demo of while loop @param n counter value*/
     public static void whileLoopDemo(int n){
         int counter = 1;
         System.out.println("While loop demo");
@@ -16,9 +14,7 @@ public class WhileAndDoWhile {
             counter++;
         }
     }
-    /**
-     * Demo of Do-while loop @param n counter value
-     */
+    /** Demo of Do-while loop @param n counter value*/
     public static void doWhileLoopDemo(int n){
         int counter = 1;
         System.out.println("Do-while loop demo");
