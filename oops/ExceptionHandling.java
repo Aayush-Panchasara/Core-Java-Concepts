@@ -13,18 +13,18 @@ class SBIBank {
         this.balance = initialBalance;
     }
 
-    public void deposit(int var1) {
-        this.balance += var1;
-        System.out.println(var1 + " Creadited in your account");
+    public void deposit(int amount) {
+        this.balance += amount;
+        System.out.println(amount + " Credited in your account");
         System.out.println("Current balance " + this.checkBalance());
     }
 
-    public void withdraw(int var1) throws InsuffientBalance {
-        if (var1 > this.balance) {
+    public void withdraw(int amount) throws InsuffientBalance {
+        if (amount > this.balance) {
             throw new InsuffientBalance("Insufficient bank balance");
         } else {
-            this.balance -= var1;
-            System.out.println(var1 + " Debited from your account");
+            this.balance -= amount;
+            System.out.println(amount + " Debited from your account");
             System.out.println("Current balance " + this.checkBalance());
         }
     }

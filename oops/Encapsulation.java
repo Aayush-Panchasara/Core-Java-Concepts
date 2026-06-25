@@ -14,7 +14,7 @@ class Bank {
 
     public void deposit(int amount) {
         balance = balance + amount;
-        System.out.println(amount + " Creadited in your account");
+        System.out.println(amount + " Credited in your account");
         System.out.println("Current balance " + checkBalance());
     }
 

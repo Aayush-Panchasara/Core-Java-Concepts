@@ -19,10 +19,10 @@ public class MapAndSet {
         userData.replace(102, "Vandaan", "Vandan");
         userData.remove(103);
 
-        Iterator<String> itr = userData.values().iterator();
+        Iterator<String> iterator = userData.values().iterator();
         System.out.println("Map Demo : ");
-        while (itr.hasNext()) {
-            System.out.println(itr.next());
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
         }
     }
 
@@ -36,10 +36,10 @@ public class MapAndSet {
         colors.add("Red");
         colors.remove("Yellow");
 
-        Iterator<String> itr = colors.iterator();
+        Iterator<String> iterator = colors.iterator();
         System.out.println("\nSet Demo : ");
-        while (itr.hasNext()) {
-            System.out.println(itr.next());
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
         }
     }
 

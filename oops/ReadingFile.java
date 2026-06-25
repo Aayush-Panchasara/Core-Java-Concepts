@@ -8,12 +8,12 @@ public class ReadingFile {
 
     public static void main(String[] args) {
         try {
-            BufferedReader br = new BufferedReader(new FileReader("myTestFile.txt"));
+            BufferedReader bufferedReader = new BufferedReader(new FileReader("myTestFile.txt"));
             String line;
-            while ((line = br.readLine()) != null) {
+            while ((line = bufferedReader.readLine()) != null) {
                 System.out.println(line);
             }
-            br.close();
+            bufferedReader.close();
         } catch (Exception e) {
             System.out.println("Exception : " + e);
         }

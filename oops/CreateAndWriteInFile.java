@@ -16,11 +16,11 @@ public class CreateAndWriteInFile {
                 System.out.println("File already exists.");
             }
 
-            BufferedWriter bw = new BufferedWriter(new FileWriter(file));
-            bw.write("Hello Everyone\n");
-            bw.write("My self Aayush Panchasara\n");
-            bw.write("I am Java Developer\n");
-            bw.close();
+            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file));
+            bufferedWriter.write("Hello Everyone\n");
+            bufferedWriter.write("My self Aayush Panchasara\n");
+            bufferedWriter.write("I am Java Developer\n");
+            bufferedWriter.close();
         } catch (Exception e) {
             System.out.println("Exception : " + e);
         }

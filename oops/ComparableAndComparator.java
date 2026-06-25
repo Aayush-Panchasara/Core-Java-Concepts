@@ -33,8 +33,8 @@ class Employee {
 
 class NameComparator implements Comparator<Employee> {
     @Override
-    public int compare(Employee empOne, Employee empTwo) {
-        return empOne.name.compareTo(empTwo.name);
+    public int compare(Employee employeeTo, Employee employeeFrom) {
+        return employeeTo.name.compareTo(employeeFrom.name);
     }
 }
 

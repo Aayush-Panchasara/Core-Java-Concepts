@@ -15,7 +15,7 @@ class LandAnimal extends Animal {
 
 class AquaticAnimal extends Animal {
     public void livingLocation() {
-        System.out.println("I am livin in the water.");
+        System.out.println("I am living in the water.");
     }
 }
 
