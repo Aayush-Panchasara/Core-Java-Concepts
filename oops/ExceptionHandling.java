@@ -2,23 +2,20 @@ package oops;
 /*Write a program to handle exceptions using try, catch, finally, throw, and throws keywords. */
 
 class InsuffientBalance extends Exception {
-
     InsuffientBalance(String message) {
         super(message);
     }
 }
 
 class SBIBank {
-
     private double balance;
-
     public SBIBank(double initialBalance) {
         this.balance = initialBalance;
     }
 
     public void deposit(int var1) {
         this.balance += var1;
-        System.out.println(var1 + " Creadeted in your account");
+        System.out.println(var1 + " Creadited in your account");
         System.out.println("Current balance " + this.checkBalance());
     }
 

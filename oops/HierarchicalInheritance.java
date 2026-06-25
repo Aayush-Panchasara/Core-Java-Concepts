@@ -2,14 +2,12 @@ package oops;
 /*Program to demonstrate Hierarchical Inheritance */
 
 class Cricket {
-
     public void playCricket() {
         System.out.println("Playing Cricket...");
     }
 }
 
 class TestCricket extends Cricket {
-
     @Override
     public void playCricket() {
         System.out.println("Playing Test Cricket...");
@@ -17,7 +15,6 @@ class TestCricket extends Cricket {
 }
 
 class ODICricket extends Cricket {
-
     @Override
     public void playCricket() {
         System.out.println("Playing ODI Cricket...");

@@ -2,7 +2,6 @@ package oops;
 /*Write a program to demonstrate runtime polymorphism. */
 
 class Shape {
-
     public void calculateArea() {
         System.out.println("Base class");
     }
@@ -13,9 +12,7 @@ class Shape {
 }
 
 class Square extends Shape {
-
     double length;
-
     public Square(int length) {
         this.length = length;
     }

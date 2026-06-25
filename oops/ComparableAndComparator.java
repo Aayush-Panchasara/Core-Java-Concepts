@@ -7,10 +7,8 @@ import java.util.Comparator;
 import java.util.List;
 
 class Student implements Comparable<Student> {
-
     int id;
     String name;
-
     Student(int id, String name) {
         this.id = id;
         this.name = name;
@@ -23,11 +21,9 @@ class Student implements Comparable<Student> {
 }
 
 class Employee {
-
     int id;
     String name;
     double salary;
-
     Employee(int id, String name, double salary) {
         this.id = id;
         this.name = name;
@@ -36,7 +32,6 @@ class Employee {
 }
 
 class NameComparator implements Comparator<Employee> {
-
     @Override
     public int compare(Employee empOne, Employee empTwo) {
         return empOne.name.compareTo(empTwo.name);

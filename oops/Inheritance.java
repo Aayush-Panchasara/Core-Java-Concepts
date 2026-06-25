@@ -28,9 +28,7 @@ package oops;
 */
 
 class One {
-
     int numOne;
-
     public One(int input) {
         this.numOne = input;
     }
@@ -41,9 +39,7 @@ class One {
 }
 
 class Two extends One {
-
     int numOne, numTwo;
-
     public Two(int input1, int input2) {
         super(input1);
         this.numTwo = input2;
@@ -57,9 +53,7 @@ class Two extends One {
 }
 
 class Three extends Two {
-
     int numOne, numTwo, numThree;
-
     public Three(int input1, int input2, int input3) {
         super(input1, input2);
         this.numThree = input3;
@@ -72,9 +66,7 @@ class Three extends Two {
 }
 
 class Four extends One {
-
     int numOne, numFour;
-
     public Four(int input1, int input4) {
         super(input1);
         this.numFour = input4;
@@ -87,9 +79,7 @@ class Four extends One {
 }
 
 class Five extends Four {
-
     int numOne, numFour, numFive;
-
     public Five(int input1, int input4, int input5) {
         super(input1, input4);
         this.numFive = input5;

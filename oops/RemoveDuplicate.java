@@ -6,7 +6,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 
 public class RemoveDuplicate {
-
+    
     /**Remove the duplicate character form the characters Array */
     public static List<String> removeDuplicate(List<String> characters) {
         LinkedHashSet<String> uniqueChar = new LinkedHashSet<>(characters);
@@ -25,7 +25,6 @@ public class RemoveDuplicate {
         characters.add("E");
         characters.add("C");
         characters.add("A");
-
         System.out.print("Before : ");
         System.out.println(characters);
         List<String> uniqueCharacters = removeDuplicate(characters);

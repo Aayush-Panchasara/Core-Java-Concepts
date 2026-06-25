@@ -2,28 +2,24 @@ package oops;
 /*Program to demonstrate Hybrid Inheritance */
 
 class Animal {
-
     public void bark() {
         System.out.println("Animal barking...");
     }
 }
 
 class LandAnimal extends Animal {
-
     public void livingLocation() {
         System.out.println("I am living on the Land.");
     }
 }
 
 class AquaticAnimal extends Animal {
-
     public void livingLocation() {
         System.out.println("I am livin in the water.");
     }
 }
 
 class Dog extends LandAnimal {
-
     @Override
     public void bark() {
         System.out.println("Bhav bhav !!!!!");
@@ -35,7 +31,6 @@ class Dog extends LandAnimal {
 }
 
 class Fish extends AquaticAnimal {
-
     @Override
     public void bark() {
         System.out.println("Fish Barking...");

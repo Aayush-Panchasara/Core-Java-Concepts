@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class MapAndSet {
-
+    
     /**Demo of Map */
     public static void mapDemo() {
         Map<Integer, String> userData = new HashMap<>();

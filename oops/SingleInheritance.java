@@ -2,14 +2,12 @@ package oops;
 /*Program to demonstrate Single Inheritance */
 
 class Phone {
-
     public void makeCall() {
         System.out.println("Calling ...");
     }
 }
 
 class SmartPhone extends Phone {
-
     public void makeVideoCall() {
         System.err.println("Video calling...");
     }
@@ -18,8 +16,8 @@ class SmartPhone extends Phone {
 public class SingleInheritance {
 
     public static void main(String[] args) {
-        Phone simplePhone = new Phone();
-        simplePhone.makeCall();
+        Phone phone = new Phone();
+        phone.makeCall();
 
         SmartPhone smartPhone = new SmartPhone();
         smartPhone.makeCall();

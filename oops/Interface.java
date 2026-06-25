@@ -1,19 +1,16 @@
 package oops;
 
 interface TwoDimentionalShape {
-
     public void calculateArea(double length, double breadth);
     public void calculatePerimeter(double length, double breadth);
 }
 
 interface ThreeDimentionalShape {
-
     public void calculateTotalSurfaceArea(double length, double breadth, double height);
     public void calculateVolume(double length, double breadth, double height);
 }
 
 class Rectangle implements TwoDimentionalShape {
-
     @Override
     public void calculateArea(double length, double breadth) {
         System.out.println("Area of Rectangle : " + length * breadth);
@@ -26,7 +23,6 @@ class Rectangle implements TwoDimentionalShape {
 }
 
 class Cuboid implements ThreeDimentionalShape {
-
     @Override
     public void calculateTotalSurfaceArea(double length, double breadth, double height) {
         double area = 2 * ((length * breadth) + (breadth * height) + (length * height));

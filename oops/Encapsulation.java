@@ -2,9 +2,7 @@ package oops;
 /* Write a program to demonstrate encapsulation.*/
 
 class Bank {
-
     private int balance;
-
     public Bank(int balance) {
         this.balance = balance;
     }
@@ -16,7 +14,7 @@ class Bank {
 
     public void deposit(int amount) {
         balance = balance + amount;
-        System.out.println(amount + " Creadeted in your account");
+        System.out.println(amount + " Creadited in your account");
         System.out.println("Current balance " + checkBalance());
     }
 
@@ -35,8 +33,8 @@ public class Encapsulation {
 
     public static void main(String[] args) {
         Bank bank = new Bank(5000);
-        // We cannot have directly access to the private variables defined in the class, we can do it using the getter and setter method
-        // bank.balance; //It will throw an error
+        // We cannot have directly access to the private variables defined in the class, It will throw an error, We can do it using the getter and setter method 
+        // bank.balance; 
         System.out.println("Current balance : " + bank.checkBalance());
         bank.deposit(2500);
         bank.withdraw(2000);

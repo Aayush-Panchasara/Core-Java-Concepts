@@ -2,7 +2,6 @@ package oops;
 /*Write a program to demonstrate compile-time polymorphism. */
 
 class Figure {
-
     public double calculateArea(double length) {
         return length * length;
     }
