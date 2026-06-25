@@ -17,7 +17,6 @@ public class Overloading {
         Figure figure = new Figure();
         System.out.println("Area of Square : " + figure.calculateArea(18));
         System.out.println("Area of Rectangle : " + figure.calculateArea(18, 20));
-
     }
 
 }

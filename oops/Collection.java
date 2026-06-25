@@ -14,9 +14,9 @@ public class Collection {
         words.add("Aayush");
         words.add("Panchasara");
 
-        Iterator<String> itr = words.iterator();
-        while (itr.hasNext()) {
-            System.out.println(itr.next());
+        Iterator<String> iterator = words.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
         }
     }
 
